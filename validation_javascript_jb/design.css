@@ -1,0 +1,184 @@
+
+#first{
+    
+    width:400px;
+    height:530px;
+    position:relative;
+    left:450px;
+    top:40px;
+    background-color:rgba(228, 205, 205, 0.486);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.219) 5px 5px;
+}
+#signup{
+    position: relative;
+    width:350px;
+    height:35px;
+    left:10px;
+    top:19px;
+    font-weight: bolder;
+}
+#usr{
+    position: relative;
+    width:350px;
+    height:35px;
+    left:10px;
+    top:20px;
+}
+
+#username{
+    position: relative;
+    width:350px;
+    height:35px;
+    left:10px;
+    top:25px;
+    border-radius: 5px;
+    border:1px;
+    
+}
+#mail{
+    position: relative;
+    width:350px;
+    height:35px;
+    left:10px;
+    top:40px;
+}
+#email{
+    position: relative;
+    width:350px;
+    height:35px;
+    left:10px;
+    top:45px;
+    border-radius: 5px;
+    border:1px;
+}
+#email_error{
+    position: relative;
+    width:350px;
+    height:35px;
+    left:10px;
+    top:48px;
+    color: red;
+    white-space: nowrap;
+}
+#pswd{
+    position: relative;
+    width:350px;
+    height:35px;
+    left:10px;
+    top:52px;
+}
+#pass{
+    position: relative;
+    width:350px;
+    height:35px;
+    left:10px;
+    top:55px;
+    border-radius: 5px;
+    border:1px;
+}
+
+#repeat{
+    position: relative;
+    width:350px;
+    height:35px;
+    left:10px;
+    top:75px;
+}
+#pass_re{
+    position: relative;
+    width:350px;
+    height:35px;
+    left:10px;
+    top:80px;
+    border-radius: 5px;
+    border:1px;
+}
+
+#sign{
+    position: relative;
+    width:200px;
+    height:46px;
+    left:90px;
+    top:110px;
+    background-color: rgba(255, 0, 0, 0.863);
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+
+
+#pass_wrong{
+    position: relative;
+    width:350px;
+    height:35px;
+    left:10px;
+    top:85px;
+    color: red;
+}
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(/cloud.jpg);
+    
+    background-size: cover;
+    
+}
+
+#small1{
+    position:relative;
+    top:26px;
+    left:10px;
+    color:red;
+    white-space: nowrap;
+}
+.txt{
+    display: block;
+}
+
+#small2{
+    position: relative;
+    top:58px;
+    left:10px;
+    color:red;
+    white-space: nowrap;
+}
+
+
+@media screen and (max-width:1200px) {
+    
+   
+    #first{
+        position: relative;
+        left:300px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    
+    
+    #first{
+        position: relative;
+        left:250px;
+    }
+}
+
+@media screen and (max-width:768px) {
+   
+    #first{
+        position: relative;
+        left:130px;
+    }
+}
+
+@media screen and (max-width:576px) {
+   
+    #first{
+        position: relative;
+        left:50px;
+    }
+}
